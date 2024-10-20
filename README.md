@@ -3,4 +3,8 @@ This is a repository containing the ML models constructed for the DARPA Biomanuf
 
 A series of models are trained on optimization objectives growth and titer: Neural networks (NNs), Probabilistic neural networks (PNNs), and PNNs with transfer learning. The NNs and PNNs are trained on HARV data collected on Earth, whereas the PNNs with transfer learning are models retrained on space data. 
 
+## Neural Networks
+
+## Probabilistic Neural Networks
+
 ## Probabilistic Neural Networks with Transfer Learning
