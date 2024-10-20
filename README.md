@@ -13,9 +13,11 @@ The NNs make accurate predictions of the data, but they are limited to means in 
 ![PNN_growth_titer_example](./figures/PNN_growth_titer.png)
 *Examples of PNNs for growth (left) and titer (right) for Pichia pastoris (P.pas) Escherichia coli (E.coli) respectively with beta-carotene (BC) across gravities of 1G (Earth), Low Shear Modeled Microgravity (LSMMG), Lunar, Martian.*
 
-The advantage of using PNNs instead of NNs is the variance can also be inferred, allowing 95% confidence intervals (CIs) to be constructed to provide further insight on the true growths and titers of the different organisms under variable gravity conditions.
+The advantage of using PNNs instead of NNs is the variance can also be inferred, allowing 95% confidence intervals to be constructed to provide further insight on the true growths and titers of the different organisms under variable gravity conditions. However, the datasets are derived from simulated gravities on Earth, meaning there are discrepancies with data collected under variable gravities in space.
 
 ## Probabilistic Neural Networks with Transfer Learning
 ![PNN_TL_growth_example](./figures/PNN_TL_growth.png)
 ![PNN_TL_titer_example](./figures/PNN_TL_titer.png)
-insert 95% CI before/after
+*Examples of 95% confidence intervals before (left) and after (right) transfer learning is performed on the PNNs for Y.lipo BC LSMMG (top) and P.pas BC 1G (bottom).*
+
+To resolve the discrepancy between data collected on Earth and space, transfer learning where the last layer of the PNNs are fine-tuned is performed. The 95% confidence intervals before and after transfer learning verify the increased accuracy in inference for real space conditions as: (a) better agreement between the models and space data, (b) the 95% confidence interval ranges are much narrower, leading to increased confidence on true growth and titer.
