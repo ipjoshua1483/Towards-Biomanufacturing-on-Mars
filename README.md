@@ -5,12 +5,15 @@ A series of models are trained on optimization objectives growth and titer: Neur
 
 ## Neural Networks
 ![NN_growth_titer_example](./figures/NN_growth_titer.png)
-*Examples of NN models trained for growth (left) and titer (right) for yeasts Pichia pastoris (P.pas) and Yarrowia lipolytica (Y.lipo) with beta-carotene (BC) across gravities of 1G (Earth), Low Shear Modeled Microgravity (LSMMG), Lunar, Martian.*
+*Examples of NN models trained for growth (left) and titer (right) for yeasts Pichia pastoris (P.pas) and Yarrowia lipolytica (Y.lipo) respectively with beta-carotene (BC) across gravities of 1G (Earth), Low Shear Modeled Microgravity (LSMMG), Lunar, Martian.*
 
-The NNs make accurate predictions of the data, but they are limited to means in inference, hindering efforts in uncertainty quantification.
+The NNs make accurate predictions of the data, but they are limited to means in inference, hindering efforts in uncertainty quantification and motivating the use of probabilistic neural networks.
 
 ## Probabilistic Neural Networks
 ![PNN_growth_titer_example](./figures/PNN_growth_titer.png)
+*Examples of PNNs for growth (left) and titer (right) for Pichia pastoris (P.pas) Escherichia coli (E.coli) respectively with beta-carotene (BC) across gravities of 1G (Earth), Low Shear Modeled Microgravity (LSMMG), Lunar, Martian.*
+
+The advantage of using PNNs instead of NNs is the variance can also be inferred, allowing 95% confidence intervals (CIs) to be constructed to provide further insight on the true growths and titers of the different organisms under variable gravity conditions.
 
 ## Probabilistic Neural Networks with Transfer Learning
 ![PNN_TL_growth_example](./figures/PNN_TL_growth.png)
