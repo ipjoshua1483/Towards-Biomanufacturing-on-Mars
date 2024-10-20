@@ -18,6 +18,6 @@ The advantage of using PNNs instead of NNs is the variance can also be inferred,
 ## Probabilistic Neural Networks with Transfer Learning
 ![PNN_TL_growth_example](./figures/PNN_TL_growth.png)
 ![PNN_TL_titer_example](./figures/PNN_TL_titer.png)
-*Examples of 95% confidence intervals before (left) and after (right) transfer learning is performed on the PNNs for Y.lipo BC LSMMG (top) and P.pas BC 1G (bottom).*
+*Examples of 95% confidence intervals before (left) and after (right) transfer learning is performed on the PNNs for Y.lipo BC LSMMG Growth (top) and P.pas BC 1G Titer (bottom).*
 
 To resolve the discrepancy between data collected on Earth and space, transfer learning where the last layer of the PNNs are fine-tuned is performed. The 95% confidence intervals before and after transfer learning verify the increased accuracy in inference for real space conditions as: (a) better agreement between the models and space data, (b) the 95% confidence interval ranges are much narrower, leading to increased confidence on true growth and titer.
