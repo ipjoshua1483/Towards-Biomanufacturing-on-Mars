@@ -5,7 +5,7 @@ A series of models are trained on optimization objectives growth and titer: Neur
 
 ## Neural Networks
 ![NN_growth_titer_example](./figures/NN_growth_titer.png)
-*Examples of NN models trained for yeasts Pichia pastoris (P.pas) and Yarrowia lipolytica (Y.lipo) with beta-carotene (BC) across gravities of 1G (Earth), Low Shear Modeled Microgravity (LSMMG), Lunar, Martian*
+*Examples of NN models trained for growth and titer for yeasts Pichia pastoris (P.pas) and Yarrowia lipolytica (Y.lipo) with beta-carotene (BC) across gravities of 1G (Earth), Low Shear Modeled Microgravity (LSMMG), Lunar, Martian*
 
 
 ## Probabilistic Neural Networks
