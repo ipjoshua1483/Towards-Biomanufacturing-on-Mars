@@ -10,7 +10,7 @@ A series of models are trained on optimization objectives growth and titer: Neur
 The NNs make accurate predictions of the data, but they are limited to means in inference, hindering efforts in uncertainty quantification.
 
 ## Probabilistic Neural Networks
-insert PNN plots
+![PNN_growth_titer_example](./figures/PNN_growth_titer_example.png)
 
 ## Probabilistic Neural Networks with Transfer Learning
 ![PNN_TL_growth_titer_example](./figures/PNN_TL_growth_example.png)
